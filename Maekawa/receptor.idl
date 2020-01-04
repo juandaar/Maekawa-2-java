@@ -1,0 +1,16 @@
+
+
+struct Message 
+{
+long  Source;
+long Destination;
+long Type;
+long clock;
+};
+
+interface receiver 
+{
+   void send(in Message message) ;
+   
+};
+
